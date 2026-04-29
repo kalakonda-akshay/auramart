@@ -8,3 +8,4 @@ yarn-error.log*
 vite-dev*.log
 vite-dev*.err.log
 *.zip
+gh-pages-worktree

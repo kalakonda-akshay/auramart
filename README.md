@@ -61,7 +61,14 @@ npm run build
 
 ## Deployment
 
-This project includes a GitHub Actions workflow for GitHub Pages. After Pages is enabled for the repository, each push to `main` builds and deploys the app.
+This project includes deployment settings for both Netlify and GitHub Pages.
+
+For Netlify:
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+For GitHub Pages, the included GitHub Actions workflow uses the `build:github-pages` script so assets load correctly from the `/auramart/` path.
 
 Expected GitHub Pages URL:
 
