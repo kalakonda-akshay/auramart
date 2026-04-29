@@ -59,6 +59,16 @@ Build for production:
 npm run build
 ```
 
+## Deployment
+
+This project includes a GitHub Actions workflow for GitHub Pages. After Pages is enabled for the repository, each push to `main` builds and deploys the app.
+
+Expected GitHub Pages URL:
+
+```text
+https://kalakonda-akshay.github.io/auramart/
+```
+
 ## Portfolio Note
 
 This project intentionally uses standard React `useState` instead of external state management so the cart, modal, filter, and sorting logic are easy to read and explain during internship interviews.
